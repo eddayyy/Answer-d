@@ -1,3 +1,26 @@
-﻿body {
+﻿#usernameField
+{
+   border-color: orange;
+
 }
 
+#passwordField
+{
+    border-color: orange; 
+}
+
+#logInButton
+{
+   background-color: orange;
+}
+
+/* Center the form vertically and horizontally*/
+#form
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
