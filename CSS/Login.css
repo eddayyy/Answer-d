@@ -1,17 +1,22 @@
 ﻿#usernameField
 {
    border-color: orange;
-
+   font-size: 16px;
 }
 
 #passwordField
 {
-    border-color: orange; 
+    border-color: orange;
+    font-size: 16px;
 }
 
 #logInButton
 {
-   background-color: orange;
+    background-color: orange;
+    color: white;
+    padding: 15px 32px;
+    font-size: 16px;
+    border-radius: 4px; /*Rounded edges*/
 }
 
 /* Center the form vertically and horizontally*/
