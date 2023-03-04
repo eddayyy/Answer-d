@@ -1,2 +1,2 @@
-Carina Adrianzen
-carinadyann@csu.fullerton.edu
+Eduardo Nunez
+eduardonunez@csu.fullerton.edu
