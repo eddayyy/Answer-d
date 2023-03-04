@@ -3,12 +3,42 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
+
+  <!--Title of tab-->
+  <title>Log In</title>
+
   <meta name="Generator" content="Cocoa HTML Writer">
   <meta name="CocoaVersion" content="2299.4">
   <style type="text/css">
   </style>
+
+  <!--Link to Login.css-->
+  <link rel="stylesheet" href="CSS/Login.css">
+
 </head>
 <body>
+  
+  <!--division for the form and link to the sign up page-->
+  <div id="form">
+
+    <!--Form-->
+    <form>
+      <!--Username field-->
+      <label for="usernameInput">Username:</label><br>
+      <input id="usernameField" type="text" size="50" required><br><br>
+
+      <!--Password field-->
+      <label for="password">Password:</label><br>
+      <input id="passwordField" type="password" size="50" required><br><br>
+
+      <!--Log in button. Redirects back to tuffytalks.html-->
+      <input id="logInButton" type="submit" value="Log In" onclick="location.href='index.html'">
+    </form>
+
+    <!--Sign up link with text-->
+    <p>Don't have an account? <a id="signUpLink" href="SignUp.html">Sign up</a></p>
+  
+  </div>
+
 </body>
 </html>
