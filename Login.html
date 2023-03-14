@@ -18,25 +18,38 @@
 </head>
 <body>
   
+  <ul>
+    <li><a class="link" href="Login.html">LOGIN/SIGN UP</a></li>
+    <li><a class="link" href="index.html">HOME</a></li>
+  </ul> 
+
+  <p id="loginText">LOGIN</p>
+
   <!--division for the form and link to the sign up page-->
   <div id="form">
 
     <!--Form-->
     <form>
       <!--Username field-->
-      <label for="usernameInput">Username:</label><br>
+      <label for="usernameInput">USERNAME/EMAIL:</label><br>
       <input id="usernameField" type="text" size="50" required><br><br>
 
       <!--Password field-->
-      <label for="password">Password:</label><br>
+      <label for="password">PASSWORD:</label><br>
       <input id="passwordField" type="password" size="50" required><br><br>
 
-      <!--Log in button. Redirects back to tuffytalks.html-->
-      <input id="logInButton" type="submit" value="Log In" onclick="location.href='index.html'">
+      <p id="forgetPassword">FORGET PASSWORD?</p>
     </form>
 
+    <div id="belowForm">
+    <!--submit button. Redirects back to tuffytalks.html-->
+    <input id="submitButton" type="submit" value="SUBMIT" onclick="location.href='index.html'">
+
     <!--Sign up link with text-->
-    <p>Don't have an account? <a id="signUpLink" href="SignUp.html">Sign up</a></p>
+    <p id="dontHaveAccount">DON'T HAVE AN ACCOUNT?<br><br><br>
+      <a id="signUpLink" href="SignUp.html">CLICK HERE TO SIGN UP!</a>
+    </p>
+  </div>
   
   </div>
 
