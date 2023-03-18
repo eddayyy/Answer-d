@@ -1,4 +1,60 @@
 ﻿body {
+<<<<<<< Updated upstream
+=======
+    position: relative;
+    width: 1280px;
+    height: 832px;
+    background: #FFE7D9;
+}
+
+/* Container */
+.content-container {
+    position: absolute;
+    width: 1048px;
+    height: 700px;
+    left: 116px;
+    top: 66px;
+
+    background: #FFFFFF;
+    border: 10px solid #004AAD;
+    border-radius: 50px;
+}
+
+/*FAQ Header*/
+.faq {      
+    position: absolute;
+    text-align: center;
+    left: 45%;
+    font-family: 'Koulen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    text-decoration-line: underline;
+    color: #004AAD;
+}
+
+.questions {
+/* q: How do I add classes? */
+    margin-top: 120px;
+    padding-left: 20px;
+    font-family: 'Koulen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.5;
+    color: #004AAD;
+}
+
+.answers {
+    font-family: 'Koulen';
+    padding-left: 20PX;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.5px;
+    
+    color: #FF914D;
+>>>>>>> Stashed changes
 }
 
 #logInButton
