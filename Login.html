@@ -39,36 +39,39 @@
       </style>
     -->
 
-        <p id="titleText">Welcome</p>
+        <p id="titleText">Login</p>
 
         <!--division for the form and link to the sign up page-->
-        <div id="form">
+        <div class="content-container">
+            <div id="form">
 
-          <!--Form-->
-          <form>
-            <!--Username field-->
-            <label for="usernameInput">USERNAME/EMAIL:</label><br>
-            <input id="usernameField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
+              <!--Form-->
+              <form>
+                <!--Username field-->
+                <label for="usernameInput">USERNAME/EMAIL:</label><br>
+                <input id="usernameField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
 
-            <!--Password field-->
-            <label for="password">PASSWORD:</label><br>
-            <input id="passwordField" type="password" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
+                <!--Password field-->
+                <label for="password">PASSWORD:</label><br>
+                <input id="passwordField" type="password" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
 
-            <p id="forgetPassword">FORGET PASSWORD?</p>
-           </form>
+                <p id="forgetPassword">FORGET PASSWORD?</p>
+               </form>
         </div>
 
 
     <div id="belowForm">
+                <div id="belowForm">
+                    <input id="submitButton" type="submit" value="SUBMIT" onclick="location.href='index.html'">
 
       <!--Submit button and sign up link-->
       <input id="submitButton" type="submit" value="SUBMIT" onclick="location.href='index.html'"><br>
 
-      <p id="dontHaveAccount">
-        DON'T HAVE AN ACCOUNT?<br>
-        <a id="signUpLink" href="SignUp.html">CLICK HERE TO SIGN UP!</a>
-      </p>
-    </div>
-  
+              <p id="dontHaveAccount">
+            DON'T HAVE AN ACCOUNT?<br>
+            <a id="signUpLink" href="SignUp.html">CLICK HERE TO SIGN UP!</a>
+          </p>
+        </div>
+            </div>  
     </body>
 </html>
