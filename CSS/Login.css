@@ -1,4 +1,10 @@
-﻿/* navigation bar */
+﻿body
+{
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
+}
+
+/* navigation bar */
 ul
 {
     list-style-type: none;
@@ -53,6 +59,9 @@ label
    color: #004AAD;
    border-radius: 50px;
    height: 25px;
+
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
 }
 
 #passwordField
@@ -64,6 +73,9 @@ label
     color: #004AAD;
     border-radius: 50px;
     height: 25px;
+
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
 }
 
 #forgetPassword
@@ -77,11 +89,14 @@ label
     background-color: #FF914D;
     color: white;
     padding: 15px 32px;
-    font-size: 16px;
+    font-size: 20px;
     border: none;
     border-radius: 50px;
     margin-top: 25px;
     margin-bottom: 25px;
+
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
 }
 
 #form
@@ -98,7 +113,9 @@ label
 
 #dontHaveAccount
 {
+    font-size: 20px;
     color: #004AAD;
+
     /* text thickness */
     font-weight: 700;
 }
