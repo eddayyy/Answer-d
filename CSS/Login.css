@@ -1,5 +1,6 @@
 ﻿body
 {
+   border-color: orange;
     /* Koulen font and Times New Roman as a fallback */
     font-family: "Koulen", "Times New Roman";
 }
@@ -30,17 +31,15 @@ li
 }
 
 /* LOGIN text */
-#loginText
-{
+#loginText {
     text-align: center;
     margin-top: 5%;
     color: #004AAD;
-
     /* text thickness */
     font-weight: 700;
     font-size: xx-large;
-
     text-decoration: underline;
+    font-family: 'Koulen';
 }
 
 /* fields */
