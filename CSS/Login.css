@@ -1,6 +1,62 @@
 ﻿#usernameField
 {
+<<<<<<< Updated upstream
    border-color: orange;
+=======
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
+}
+
+/* navigation bar */
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF914D;
+}
+  
+li
+{
+    float: right;
+}
+
+.link
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+/* LOGIN text */
+#loginText {
+    text-align: center;
+    margin-top: 5%;
+    color: #004AAD;
+    /* text thickness */
+    font-weight: 700;
+    font-size: xx-large;
+    text-decoration: underline;
+    font-family: 'Koulen';
+}
+
+/* fields */
+label
+{
+    color: #004AAD;
+    /* text thickness */
+    font-weight: 700;
+}
+
+#usernameField
+{
+   border: none;
+   background-color: #FFE7D9;
+>>>>>>> Stashed changes
    font-size: 16px;
 }
 

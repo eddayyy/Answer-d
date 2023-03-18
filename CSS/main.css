@@ -38,3 +38,24 @@ img {
     height: 60px;
     width: auto;
 }
+
+/* containers */
+.content-container {
+    background-color: white;
+    border-radius: 25px;
+    border: 10px solid #004AAD;
+    padding: 10px;
+    margin: 40px;
+}
+
+/* text */
+#titleText {
+    text-align: center;
+    margin-top: 5%;
+    color: #004AAD;
+    /* text thickness */
+    font-weight: 700;
+    font-size: xx-large;
+    text-decoration: underline;
+    font-family: 'Koulen';
+}
