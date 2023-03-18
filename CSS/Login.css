@@ -55,3 +55,16 @@ li
 {
     color: #FF914D;
 }
+
+#belowForm
+{
+    margin: 0;
+
+    /* Center the form vertically and horizontally*/
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
