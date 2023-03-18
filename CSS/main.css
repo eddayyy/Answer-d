@@ -112,22 +112,9 @@ label {
     font-weight: 700;
 }
 
-#usernameField {
+#textField {
     border: none;
     background-color: #FFE7D9;
-    font-size: 16px;
-    color: #004AAD;
-    border-radius: 50px;
-    height: 25px;
-    /* Koulen font and Times New Roman as a fallback */
-    font-family: "Koulen", "Times New Roman";
-    padding-left: 10px;
-}
-
-#passwordField {
-    border: none;
-    background-color: #FFE7D9;
-    border-color: #FF914D;
     font-size: 16px;
     color: #004AAD;
     border-radius: 50px;
