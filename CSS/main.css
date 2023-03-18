@@ -1,5 +1,7 @@
 ﻿body {
     background-color: #FFE7D9;
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
 }
 
 /*navigation*/
@@ -98,6 +100,16 @@ img {
 #orangeText {
     text-align: left;
     color: #FF914D;
+    /* text thickness */
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Koulen';
+    margin-left: 10px;
+}
+
+#blueText {
+    text-align: left;
+    color: #004AAD;
     /* text thickness */
     font-size: 25px;
     text-decoration: none;
