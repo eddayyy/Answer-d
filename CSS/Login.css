@@ -1,28 +1,109 @@
-﻿#usernameField
+﻿body
 {
-   border-color: orange;
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
+}
+
+/* navigation bar */
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF914D;
+}
+  
+li
+{
+    float: right;
+}
+
+.link
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+/* LOGIN text */
+#loginText
+{
+    text-align: center;
+    margin-top: 5%;
+    color: #004AAD;
+
+    /* text thickness */
+    font-weight: 700;
+    font-size: xx-large;
+
+    text-decoration: underline;
+}
+
+/* fields */
+label
+{
+    color: #004AAD;
+    /* text thickness */
+    font-weight: 700;
+}
+
+#usernameField
+{
+   border: none;
+   background-color: #FFE7D9;
    font-size: 16px;
+   color: #004AAD;
+   border-radius: 50px;
+   height: 25px;
+
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
 }
 
 #passwordField
 {
-    border-color: orange;
+    border: none;
+    background-color: #FFE7D9;
+    border-color: #FF914D;
     font-size: 16px;
+    color: #004AAD;
+    border-radius: 50px;
+    height: 25px;
+
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
 }
 
-#logInButton
+#forgetPassword
 {
-    background-color: orange;
+    font-size: small;
+    text-decoration: underline;
+}
+
+#submitButton
+{
+    background-color: #FF914D;
     color: white;
     padding: 15px 32px;
-    font-size: 16px;
-    border-radius: 4px; /*Rounded edges*/
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
 }
 
-/* Center the form vertically and horizontally*/
 #form
 {
     margin: 0;
+
+    /* Center the form vertically and horizontally*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -30,7 +111,16 @@
     transform: translate(-50%, -50%);
 }
 
+#dontHaveAccount
+{
+    font-size: 20px;
+    color: #004AAD;
+
+    /* text thickness */
+    font-weight: 700;
+}
+
 #signUpLink
 {
-    color: orange;
+    color: #FF914D;
 }
