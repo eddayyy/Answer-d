@@ -48,6 +48,22 @@ img {
     margin: 40px;
 }
 
+.light-container {
+    background-color: #DAEAFF;
+    border-radius: 25px;
+    border: 8px solid #C2DCFF;
+    padding: 10px;
+    margin: 40px;
+}
+
+.dark-container {
+    background-color: #92C0FF;
+    border-radius: 25px;
+    border: 10px solid #004AAD;
+    padding: 10px;
+    margin: 40px;
+}
+
 /* text */
 #titleText {
     text-align: center;
