@@ -1,8 +1,6 @@
-﻿#usernameField
+﻿body
 {
-<<<<<<< Updated upstream
    border-color: orange;
-=======
     /* Koulen font and Times New Roman as a fallback */
     font-family: "Koulen", "Times New Roman";
 }
@@ -44,29 +42,55 @@ label
 {
    border: none;
    background-color: #FFE7D9;
->>>>>>> Stashed changes
    font-size: 16px;
+   color: #004AAD;
+   border-radius: 50px;
+   height: 25px;
+
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
 }
 
 #passwordField
 {
-    border-color: orange;
+    border: none;
+    background-color: #FFE7D9;
+    border-color: #FF914D;
     font-size: 16px;
+    color: #004AAD;
+    border-radius: 50px;
+    height: 25px;
+
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
 }
 
-#logInButton
+#forgetPassword
 {
-    background-color: orange;
+    font-size: small;
+    text-decoration: underline;
+}
+
+#submitButton
+{
+    background-color: #FF914D;
     color: white;
     padding: 15px 32px;
-    font-size: 16px;
-    border-radius: 4px; /*Rounded edges*/
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
 }
 
-/* Center the form vertically and horizontally*/
 #form
 {
     margin: 0;
+
+    /* Center the form vertically and horizontally*/
     position: absolute;
     top: 50%;
     left: 50%;
@@ -74,7 +98,16 @@ label
     transform: translate(-50%, -50%);
 }
 
+#dontHaveAccount
+{
+    font-size: 20px;
+    color: #004AAD;
+
+    /* text thickness */
+    font-weight: 700;
+}
+
 #signUpLink
 {
-    color: orange;
+    color: #FF914D;
 }
