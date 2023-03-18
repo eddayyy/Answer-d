@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="../Answer-d/CSS/main.css">
-    <link rel="stylesheet" href="../Answer-d/CSS/Login.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
-
-    <title>Login</title>
+  <link rel="stylesheet" href="CSS/Login.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">    <title>Login</title>
 </head>
 <body>
 <!--will connect to menu
@@ -47,20 +44,19 @@
         <!--division for the form and link to the sign up page-->
         <div id="form">
 
-            <!--Form-->
-            <form>
+          <!--Form-->
+          <form>
+            <!--Username field-->
+            <label for="usernameInput">USERNAME/EMAIL:</label><br>
+            <input id="usernameField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
 
-                <!--Username field-->
-                <label for="usernameInput">USERNAME/EMAIL:</label><br>
-                <input id="usernameField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
+            <!--Password field-->
+            <label for="password">PASSWORD:</label><br>
+            <input id="passwordField" type="password" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
 
-                <!--Password field-->
-                <label for="password">PASSWORD:</label><br>
-                <input id="passwordField" type="password" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
-
-      <p id="forgetPassword">FORGET PASSWORD?</p>
-    </form>
-  </div>
+            <p id="forgetPassword">FORGET PASSWORD?</p>
+           </form>
+        </div>
 
 
     <div id="belowForm">
@@ -74,6 +70,5 @@
       </p>
     </div>
   
-
     </body>
 </html>
