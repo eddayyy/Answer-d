@@ -32,18 +32,6 @@ li
     text-decoration: none;
 }
 
-/* LOGIN text */
-#loginText {
-    text-align: center;
-    margin-top: 5%;
-    color: #004AAD;
-    /* text thickness */
-    font-weight: 700;
-    font-size: xx-large;
-    text-decoration: underline;
-    font-family: 'Koulen';
-}
-
 /* fields */
 label
 {
