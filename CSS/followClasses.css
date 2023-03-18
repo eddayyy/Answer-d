@@ -1,4 +1,4 @@
-﻿body
+body
 {
    border-color: orange;
     /* Koulen font and Times New Roman as a fallback */
@@ -31,7 +31,7 @@ li
     text-decoration: none;
 }
 
-#titleText
+#addClasses
 {
     text-decoration: underline;
     font-size: x-large;
@@ -39,32 +39,23 @@ li
     color: #004AAD;
 }
 
-/* fields */
-label
+#searchByDropDown
 {
+    border-style: solid;
+    background-color: #FFE7D9;
+    border-color: #004AAD;
+    font-size: 16px;
     color: #004AAD;
-    /* text thickness */
-    font-weight: 700;
-}
-
-#usernameField
-{
-   border: none;
-   background-color: #FFE7D9;
-   font-size: 16px;
-   color: #004AAD;
-   border-radius: 50px;
-   height: 25px;
 
     /* Koulen font and Times New Roman as a fallback */
     font-family: "Koulen", "Times New Roman";
 }
 
-#passwordField
+#search
 {
-    border: none;
+    border-style: solid;
     background-color: #FFE7D9;
-    border-color: #FF914D;
+    border-color: #004AAD;
     font-size: 16px;
     color: #004AAD;
     border-radius: 50px;
@@ -74,31 +65,47 @@ label
     font-family: "Koulen", "Times New Roman";
 }
 
-#forgetPassword
+#filterByDropDown
 {
-    font-size: small;
-    text-decoration: underline;
-}
-
-#submitButton
-{
-    background-color: #FF914D;
-    color: white;
-    padding: 15px 32px;
-    font-size: 20px;
-    border: none;
-    border-radius: 50px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    width: max-content;
+    border-style: solid;
+    background-color: #FFE7D9;
+    border-color: #004AAD;
+    font-size: 16px;
+    color: #004AAD;
 
     /* Koulen font and Times New Roman as a fallback */
     font-family: "Koulen", "Times New Roman";
 }
 
-#form
+.bubble
+{
+    border-style: solid;
+    border-color: #FF914D;
+    border-radius: 25px;
+    border-width: 7px;
+    background-color: #FFE7D9;
+    padding: 2%;
+}
+
+/* 1st column of 3 class "bubbles" */
+#bubbleColumn1
 {
     margin: 0;
+    width: 300px;
+
+    /* Center the form vertically and horizontally*/
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+/* 2nd column of 3 class "bubbles" */
+#bubbleColumn2
+{
+    margin: 0;
+    width: 300px;
 
     /* Center the form vertically and horizontally*/
     position: absolute;
@@ -108,28 +115,27 @@ label
     transform: translate(-50%, -50%);
 }
 
-#dontHaveAccount
-{
-    font-size: 20px;
-    color: #004AAD;
-
-    /* text thickness */
-    font-weight: 700;
-}
-
-#signUpLink
-{
-    color: #FF914D;
-}
-
-#belowForm
+/* 3rd column of 3 class "bubbles" */
+#bubbleColumn3
 {
     margin: 0;
+    width: 300px;
 
     /* Center the form vertically and horizontally*/
     position: absolute;
-    top: 75%;
-    left: 50%;
+    top: 50%;
+    left: 75%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
+}
+
+.blue
+{
+    color: #004AAD;
+    text-decoration: underline;
+}
+
+.orange
+{
+    color: #FF914D;
 }
