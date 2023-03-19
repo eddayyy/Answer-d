@@ -1,6 +1,5 @@
-﻿body {
-<<<<<<< Updated upstream
-=======
+
+body {
     position: relative;
     width: 1280px;
     height: 832px;
@@ -54,10 +53,13 @@
     line-height: 1.5px;
     
     color: #FF914D;
->>>>>>> Stashed changes
+
 }
 
 #logInButton
+=======
+#logInButton
+]
 {
   background-color: #FF914D;
   color: white;
