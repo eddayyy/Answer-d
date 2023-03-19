@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="../CSS/SignUp.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
+ 
+    <title>Sign Up</title>
+</head>
+<body>
+
+    <!-- Navigation bar -->
+    <ul>
+        <!-- left(image) -->
+        <li style="float: left;"><a href="index.html"><img src="../Answer-d/Images/Answer'd.png"></a></li>
+
+        <!-- right -->
+        <li><a class="link" href="Login.html">Login/Sign Up</a></li>
+        <li><a class="link" href="index.html">Home</a></li>
+    </ul> 
+
+    <p id="signUpText">Sign Up</p>
+
+    <div id="form">
+        <form action="your_signup_processing_script" method="post">
+            <label for="first_name">First Name:</label><br>
+            <input type="text" id="first_name" name="first_name" size="50" placeholder="TYPE SOMETHNING . . ." required><br><br>
+
+            <label for="last_name">Last Name:</label><br>
+            <input type="text" id="last_name" name="last_name" size="50" placeholder="TYPE SOMETHNING . . ." required><br><br>
+
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" size="50" placeholder="TYPE SOMETHNING . . ." required><br><br>
+
+            <label for="phone">Phone:</label><br>
+            <input type="text" id="phone" name="phone" size="50" placeholder="TYPE SOMETHNING . . ." required><br><br>
+
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" size="50" placeholder="TYPE SOMETHNING . . ." required><br><br>
+
+            <label for="retypepassword">Retype Password:</label><br>
+            <input type="password" id="retypepassword" name="retypepassword" size="50" placeholder="TYPE SOMETHNING . . ." required><br><br>
+
+            <input id="submitButton" type="submit" value="Sign Up">
+        </form>
+    </div>
+
+</body>
+</html>
