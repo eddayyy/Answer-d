@@ -1,13 +1,12 @@
-
-body {
+/*body {
     position: relative;
     width: 1280px;
     height: 832px;
     background: #FFE7D9;
-}
+}*/
 
 /* Container */
-.content-container {
+/*.content-container {
     position: absolute;
     width: 1048px;
     height: 700px;
@@ -17,7 +16,7 @@ body {
     background: #FFFFFF;
     border: 10px solid #004AAD;
     border-radius: 50px;
-}
+}*/
 
 /*FAQ Header*/
 .faq {      
@@ -57,9 +56,6 @@ body {
 }
 
 #logInButton
-=======
-#logInButton
-]
 {
   background-color: #FF914D;
   color: white;
@@ -71,20 +67,6 @@ body {
 }
 
 /* navigation bar */
-ul
-{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #FF914D;
-}
-  
-li
-{
-    float: right;
-}
-
 .link
 {
     display: block;
