@@ -8,17 +8,17 @@
     text-decoration: none;
 }
 
+/*
 #form
 {
     margin: 0;
-
-    /* Center the form vertically and horizontally*/
     position: absolute;
     top: 50%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+*/
 
 #dontHaveAccount
 {

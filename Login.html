@@ -43,36 +43,36 @@
     -->
 
       <!--division for the form and link to the sign up page-->
-  <div class="content-container" id="form" style="margin-top: 50px;">
+  <div class="content-container">
       <p id="titleText">Login</p>
 
-      <!--Form-->
-      <form>
+          <div style="margin: auto; width: 459px">
+              <!--Form-->
+              <form style="text-align: left">
+                  <!--Username field-->
+                  <label for="usernameInput" class="blueText">USERNAME/EMAIL:</label><br>
+                  <input id="textField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
 
-          <!--Username field-->
-          <label for="usernameInput" class="blueText">USERNAME/EMAIL:</label><br>
-          <input id="textField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
+                  <!--Password field-->
+                  <label for="password" class="blueText">PASSWORD:</label><br>
+                  <input id="textField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
 
-          <!--Password field-->
-          <label for="password" class="blueText">PASSWORD:</label><br>
-          <input id="textField" type="password" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
-
-          <p id="forgetPassword">FORGET PASSWORD?</p>
-      </form>
+                  <p id="forgetPassword">FORGET PASSWORD?</p>
+              </form>
+          </div>
 
       <!--bottom form-->
       <center>
-          <div>
-              <input id="submitButton" type="submit" value="SUBMIT" onclick="location.href='index.html'">
+          <input id="submitButton" type="submit" value="SUBMIT" onclick="location.href='index.html'">
 
 
-              <!--Sign up link with text-->
-              <p id="dontHaveAccount">
-                  DON'T HAVE AN ACCOUNT?<br>
-                  <a id="signUpLink" href="SignUp.html">CLICK HERE TO SIGN UP!</a>
-              </p>
-          </div>
+          <!--Sign up link with text-->
+          <p id="dontHaveAccount">
+              DON'T HAVE AN ACCOUNT?<br>
+              <a id="signUpLink" href="SignUp.html">CLICK HERE TO SIGN UP!</a>
+          </p>
       </center>
+
   </div>
 
     </body>
