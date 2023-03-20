@@ -1,3 +1,48 @@
-﻿body {
+﻿.link
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: x-large;
+    text-decoration: none;
 }
 
+/*
+#form
+{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+*/
+
+#dontHaveAccount
+{
+    font-size: 20px;
+    color: #004AAD;
+
+    /* text thickness */
+    font-weight: 700;
+}
+
+#signUpLink
+{
+    color: #FF914D;
+}
+
+#belowForm
+{
+    margin: 0;
+
+    /* Center the form vertically and horizontally*/
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
