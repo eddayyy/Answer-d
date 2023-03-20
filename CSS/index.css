@@ -75,3 +75,11 @@
     text-decoration: none;
     font-size: x-large;
  }
+
+/* select */
+.selectBox {
+    border: 3px solid #004AAD;
+    background-color: #FFE7D9;
+    font-family: 'Koulen';
+    color: #004AAD;
+}
