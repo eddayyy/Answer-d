@@ -5,7 +5,7 @@ Evan Heidebrink
 heidebrinkevan@csu.fullerton.edu
 
 Eduardo Nunez
-Eduardo Nunez eduardonunez@csu.fullerton.edu
+eduardonunez@csu.fullerton.edu
 
 Anthony Vences
 avences@csu.fullerton.edu
