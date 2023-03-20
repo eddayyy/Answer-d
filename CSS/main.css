@@ -48,26 +48,13 @@ li a {
     border-radius: 25px;
     border: 8px solid #C2DCFF;
     padding: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 0.5;
 }
 
 .dark-container {
     background-color: #C2DCFF;
     border-radius: 25px;
     border: 10px solid #92C0FF;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 0.5;
+    padding: 10px;
 }
 
 /* text */
