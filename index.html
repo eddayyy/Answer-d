@@ -31,10 +31,15 @@
 
         <div class="light-container-index">
             <p id="headerText">Make A Post</p>
-            <img id="profile" src="../Answer-d/Images/defaultPic.png">
+            <table>
+                <tr>
+                    <td><img id="profile" src="../Answer-d/Images/defaultPic.png"></td>
+                    <td><input style="margin-left: 20px; margin-top: 10px; align-content: center; height: 60px" id="textField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br></td>
+                </tr>
+            </table>
             <br><br><br>
-            <span id="headerText" style="font-size: 15px"><label for="classes">Class:</label></span>
 
+            <label for="classes" id="headerText" style="font-size: 15px">Class:</label>
             <!--professor should be attached to class-->
             <select id="classes" class="selectBox">
                 <option>362 Software Engineering</option>
@@ -42,6 +47,9 @@
                 <option>332 Data Structures</option>
                 <option>375 Intro to Data Science and Big Data</option>
             </select>
+            <br>
+
+            <input id="submitButton" type="submit" value="POST" onclick=""> <!--will add on click action later-->
         </div>
 
         <div class="dark-container-index">
