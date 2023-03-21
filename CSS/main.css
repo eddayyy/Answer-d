@@ -48,26 +48,23 @@ li a {
     border-radius: 25px;
     border: 8px solid #C2DCFF;
     padding: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 0.5;
+    margin: 20px;
 }
 
 .dark-container {
     background-color: #C2DCFF;
     border-radius: 25px;
     border: 10px solid #92C0FF;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 0.5;
+    padding: 10px;
+    margin: 20px;
+}
+
+.orange-container {
+    background-color: #FFE7D9;
+    border-radius: 25px;
+    border: 10px solid #FF914D;
+    padding: 10px;
+    margin: 20px;
 }
 
 /* text */
@@ -110,6 +107,18 @@ li a {
     margin-left: 10px;
 }
 
+#smallBlueText {
+    font-size: 15px;
+    color: #92C0FF;
+    font-family: 'Koulen';
+}
+
+#plusOrMinus {
+    font-size: 30px;
+    color: black;
+    font-family: 'Koulen';
+}
+
 /* text fields */
 label {
     color: #004AAD;
@@ -138,7 +147,7 @@ label {
 #submitButton {
     background-color: #FF914D;
     color: white;
-    padding: 15px 32px;
+    padding: 5px 32px;
     font-size: 20px;
     border: none;
     border-radius: 50px;

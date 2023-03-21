@@ -3,17 +3,3 @@
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
 }
-
-.light-container-profile {
-    background-color: #DAEAFF;
-    border-radius: 25px;
-    border: 8px solid #C2DCFF;
-    padding: 10px;
-}
-
-.dark-container-profile {
-    background-color: #C2DCFF;
-    border-radius: 25px;
-    border: 10px solid #92C0FF;
-    padding: 10px;
-}
