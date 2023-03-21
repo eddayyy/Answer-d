@@ -1,5 +1,7 @@
 ﻿body {
     background-color: #FFE7D9;
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
 }
 
 /*navigation*/
@@ -32,8 +34,140 @@ li a {
         color: #FFE7D9;
     }
 
-/*image*/
-img {
+/* containers */
+.content-container {
+    background-color: white;
+    border-radius: 25px;
+    border: 10px solid #004AAD;
+    padding: 10px;
+    margin: 40px;
+}
+
+.light-container {
+    background-color: #DAEAFF;
+    border-radius: 25px;
+    border: 8px solid #C2DCFF;
+    padding: 10px;
+    margin: 20px;
+}
+
+.dark-container {
+    background-color: #C2DCFF;
+    border-radius: 25px;
+    border: 10px solid #92C0FF;
+    padding: 10px;
+    margin: 20px;
+}
+
+.orange-container {
+    background-color: #FFE7D9;
+    border-radius: 25px;
+    border: 10px solid #FF914D;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* text */
+#titleText {
+    text-align: center;
+    color: #004AAD;
+    /* text thickness */
+    font-weight: 700;
+    font-size: 40px;
+    text-decoration: underline;
+    font-family: 'Koulen';
+}
+
+#headerText {
+    text-align: left;
+    color: #004AAD;
+    /* text thickness */
+    font-size: 25px;
+    text-decoration: underline;
+    font-family: 'Koulen';
+}
+
+#orangeText {
+    text-align: left;
+    color: #FF914D;
+    /* text thickness */
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Koulen';
+    margin-left: 10px;
+}
+
+#blueText {
+    text-align: left;
+    color: #004AAD;
+    /* text thickness */
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Koulen';
+    margin-left: 10px;
+}
+
+#smallBlueText {
+    font-size: 15px;
+    color: #92C0FF;
+    font-family: 'Koulen';
+}
+
+#plusOrMinus {
+    font-size: 30px;
+    color: black;
+    font-family: 'Koulen';
+}
+
+/* text fields */
+label {
+    color: #004AAD;
+    /* text thickness */
+    font-weight: 700;
+}
+
+#textField {
+    border: none;
+    background-color: #FFE7D9;
+    font-size: 16px;
+    color: #004AAD;
+    border-radius: 50px;
+    height: 25px;
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
+    padding-left: 10px;
+}
+
+#forgetPassword {
+    font-size: small;
+    text-decoration: underline;
+}
+
+/* buttons */
+#submitButton {
+    background-color: #FF914D;
+    color: white;
+    padding: 5px 32px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 4px 2px -2px #949494;
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
+}
+
+/* images */
+
+#profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #92C0FF;
+}
+
+#logo {
     padding-bottom: 10px;
     height: 60px;
     width: auto;
