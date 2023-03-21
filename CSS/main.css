@@ -48,6 +48,7 @@ li a {
     border-radius: 25px;
     border: 8px solid #C2DCFF;
     padding: 10px;
+    margin: 20px;
 }
 
 .dark-container {
@@ -55,6 +56,15 @@ li a {
     border-radius: 25px;
     border: 10px solid #92C0FF;
     padding: 10px;
+    margin: 20px;
+}
+
+.orange-container {
+    background-color: #FFE7D9;
+    border-radius: 25px;
+    border: 10px solid #FF914D;
+    padding: 10px;
+    margin: 20px;
 }
 
 /* text */
@@ -95,6 +105,18 @@ li a {
     text-decoration: none;
     font-family: 'Koulen';
     margin-left: 10px;
+}
+
+#smallBlueText {
+    font-size: 15px;
+    color: #92C0FF;
+    font-family: 'Koulen';
+}
+
+#plusOrMinus {
+    font-size: 30px;
+    color: black;
+    font-family: 'Koulen';
 }
 
 /* text fields */
