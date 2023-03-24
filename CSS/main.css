@@ -1,5 +1,7 @@
 ﻿body {
     background-color: #FFE7D9;
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
 }
 
 /*navigation*/
@@ -32,13 +34,6 @@ li a {
         color: #FFE7D9;
     }
 
-/*image*/
-img {
-    padding-bottom: 10px;
-    height: 60px;
-    width: auto;
-}
-
 /* containers */
 .content-container {
     background-color: white;
@@ -53,26 +48,23 @@ img {
     border-radius: 25px;
     border: 8px solid #C2DCFF;
     padding: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 0.5;
+    margin: 20px;
 }
 
 .dark-container {
     background-color: #C2DCFF;
     border-radius: 25px;
     border: 10px solid #92C0FF;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 0.5;
+    padding: 10px;
+    margin: 20px;
+}
+
+.orange-container {
+    background-color: #FFE7D9;
+    border-radius: 25px;
+    border: 10px solid #FF914D;
+    padding: 10px;
+    margin: 20px;
 }
 
 /* text */
@@ -105,6 +97,28 @@ img {
     margin-left: 10px;
 }
 
+#blueText {
+    text-align: left;
+    color: #004AAD;
+    /* text thickness */
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Koulen';
+    margin-left: 10px;
+}
+
+#smallBlueText {
+    font-size: 15px;
+    color: #92C0FF;
+    font-family: 'Koulen';
+}
+
+#plusOrMinus {
+    font-size: 30px;
+    color: black;
+    font-family: 'Koulen';
+}
+
 /* text fields */
 label {
     color: #004AAD;
@@ -112,7 +126,7 @@ label {
     font-weight: 700;
 }
 
-#usernameField {
+#textField {
     border: none;
     background-color: #FFE7D9;
     font-size: 16px;
@@ -124,10 +138,9 @@ label {
     padding-left: 10px;
 }
 
-#passwordField {
+#userQuestion {
     border: none;
     background-color: #FFE7D9;
-    border-color: #FF914D;
     font-size: 16px;
     color: #004AAD;
     border-radius: 50px;
@@ -146,7 +159,7 @@ label {
 #submitButton {
     background-color: #FF914D;
     color: white;
-    padding: 15px 32px;
+    padding: 5px 32px;
     font-size: 20px;
     border: none;
     border-radius: 50px;
@@ -155,4 +168,19 @@ label {
     box-shadow: 0 4px 2px -2px #949494;
     /* Koulen font and Times New Roman as a fallback */
     font-family: "Koulen", "Times New Roman";
+}
+
+/* images */
+
+#profile {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 5px solid #92C0FF;
+}
+
+#logo {
+    padding-bottom: 10px;
+    height: 60px;
+    width: auto;
 }
