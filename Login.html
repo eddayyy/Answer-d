@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="CSS/Login.css">
+    <link rel="stylesheet" href="../Answer-d/CSS/main.css">
+    <link rel="stylesheet" href="../Answer-d/CSS/Login.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
 
     <link rel="icon" type="image/x-icon" href="../Answer-d/Images/favicon.png">
@@ -24,42 +25,45 @@
   <!-- Navigation bar -->
   <ul>
     <!-- left(image) -->
-    <li style="float: left;"><a href="index.html"><img id="logo" src="Images/Answer'd.png" style="height: 60px;"></a></li>
+    <li style="float: left;"><a href="index.html"><img id="logo" src="../Answer-d/Images/Answer'd.png"></a></li>
 
-    <!--right (links) -->
+    <!-- right(links) -->
     <li><a class="link" href="Login.html">LOGIN/SIGN UP</a></li>
     <li><a class="link" href="index.html">HOME</a></li>
   </ul>
-  <p id="titleText">Login</p>
 
+    <!--will connect to menu
+      <meta name="Generator" content="Cocoa HTML Writer">
+      <meta name="CocoaVersion" content="2299.4">
+      <style type="text/css">
+      </style>
+    -->
 
-    
+      <!--division for the form and link to the sign up page-->
+  <div class="content-container">
+      <p id="titleText">Login</p>
 
-    <div style="margin: auto; width: 25%">
+      <div style="margin: auto; width: 30%">
+          <!--Form-->
+          <form>
+              <!--Username field-->
+              <label for="usernameInput">USERNAME/EMAIL:</label><br>
+              <input id="usernameField" style="padding-left: 10px;" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
 
-      <!--Form-->
-      <form>
-        <!--Username field-->
-        <label for="usernameInput">USERNAME/EMAIL:</label><br>
-        <input id="usernameField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
-
-        <!--Password field-->
-        <label for="password">PASSWORD:</label><br>
-        <input id="passwordField" type="password" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
-
-        <p id="forgetPassword">FORGET PASSWORD?</p>
-      </form>
-    </div>
-
-    <div id="belowForm">
-
-      <!--Submit button and sign up link-->
-      <input id="submitButton" type="submit" value="SUBMIT" onclick="location.href='index.html'"><br>
-        <p id="dontHaveAccount">
-        DON'T HAVE AN ACCOUNT?<br>
-        <a id="signUpLink" href="SignUp.html">CLICK HERE TO SIGN UP!</a>
-        </p>
-    </div>
-    </body>
+              <!--Password field-->
+              <label for="password">PASSWORD:</label><br>
+              <input id="passwordField" style="padding-left: 10px;" type="password" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
+              <p id="forgetPassword">FORGET PASSWORD?</p>
+              <!--Submit button and sign up link-->
+              <center>
+                  <input style="margin: auto" id="submitButton" type="submit" value="SUBMIT" onclick="location.href='index.html'"><br>
+                  <p id="dontHaveAccount">
+                      DON'T HAVE AN ACCOUNT?<br>
+                      <a id="signUpLink" href="SignUp.html">CLICK HERE TO SIGN UP!</a>
+              </center>
+          </form>
+      </div>
+ 
+  </div>
+</body>
 </html>
-
