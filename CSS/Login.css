@@ -107,17 +107,14 @@ label
 }
 */
 
-#dontHaveAccount
-{
+#dontHaveAccount {
     font-size: 20px;
     color: #004AAD;
-
     /* text thickness */
     font-weight: 700;
 }
 
-#signUpLink
-{
+#signUpLink {
     color: #FF914D;
 }
 
