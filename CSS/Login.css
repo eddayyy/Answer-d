@@ -1,12 +1,4 @@
-﻿#titleText
-{
-    text-decoration: underline;
-    font-size: x-large;
-    text-align: center;
-    color: #004AAD;
-}
-
-/* fields */
+﻿/* fields */
 label
 {
     color: #004AAD;
