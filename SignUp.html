@@ -1,58 +1,62 @@
-<!-- #region -->
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-<<<<<<< Updated upstream
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <link rel="stylesheet" href="../Answer-d/CSS/main.css">
-  <link rel="stylesheet" href="../Answer-d/CSS/SignUp.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
-=======
     <link rel="stylesheet" href="../Answer-d/CSS/main.css">
     <link rel="stylesheet" href="CSS/SignUp.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
->>>>>>> Stashed changes
+<head>
+    <link rel="stylesheet" href="CSS/SignUp.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
 
-  <link rel="icon" type="image/x-icon" href="../Answer-d/Images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.png">
 
-  <title>Sign Up</title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2299.4">
-
+    <title>Sign Up</title>
 </head>
-<body style="font-family: Arial, sans-serif;">
-  <ul>
+
+<body>
+    <!--will connect to menu
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+      <meta http-equiv="Content-Style-Type" content="text/css">
+    -->
+
+    <!--will connect to menu
+      <meta name="Generator" content="Cocoa HTML Writer">
+      <meta name="CocoaVersion" content="2299.4">
+      <style type="text/css">
+      </style>
+    -->
+    <ul>
         <!-- left(image) -->
-        <li style="float: left;"><a href="index.html"><img id="logo" src="../Answer-d/Images/Answer'd.png"></a></li>
+        <li style="float: left;"><a href="index.html"><img id="logo" src="Images/Answer'd.png"
+                    style="height: 60px;"></a></li>
 
-        <!-- right -->
-        <li><a href="Login.html">Login/Sign Up</a></li>
-        <li><a href="index.html">Home</a></li>
+        <!--right (links) -->
+        <li><a class="link" href="Login.html">LOGIN/SIGN UP</a></li>
+        <li><a class="link" href="index.html">HOME</a></li>
+    </ul>
 
-  </ul>
+    <p id="titleText">Sign Up</p>
 
-  <h1>Signup Page</h1>
-  <form action="your_signup_processing_script" method="post">
-    <label for="first_name">First Name:</label>
-    <input type="text" id="first_name" name="first_name" required>
-    
-    <label for="last_name">Last Name:</label>
-    <input type="text" id="last_name" name="last_name" required>
+    <div style="margin: auto; width: 25%">
+        <form>
+            <label for="usernameInput">USERNAME:</label><br>
+            <input id="usernameField" type="text" size="50" placeholder="TYPE SOMETHNING . . ." required><br><br>
 
-    <label for="email">Email:</label>
-    <input type="email" id="email" name="email" required>
+            <label for="email">Email:</label><br>
+            <input id="emailField" type="email" size="50" placeholder="TYPE SOMETHNING . . ." required><br><br>
 
-    <label for="phone">Phone:</label>
-    <input type="text" id="phone" name="phone">
+            <label for="password">Password:</label><br>
+            <input id="passwordField" type="password" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
 
-    <label for="password">Password:</label>
-    <input type="password" id="password" name="password" required>
 
-    <label for="retypepassword">Retype Password:</label>
-    <input type="password" id="retypepassword" name="retypepassword" required>
-    <input type="submit" value="Sign Up">
-  </form>
+            <label for="retypepassword">Retype Password:</label><br>
+            <input id="passwordField" type="password" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
 
+        </form>
+    </div>
+    <div id="belowForm">
+        <input id="submitButton" type="submit" value="SUBMIT" onclick="location.href='index.html'"><br>
+    </div>
 </body>
+
 </html>
