@@ -1,3 +1,79 @@
 ﻿body {
 }
 
+#searchBy
+{
+    margin-left: 40px;
+    color: #004AAD;
+}
+
+#searchByDropDown
+{
+    border-style: solid;
+    background-color: #FFE7D9;
+    border-color: #004AAD;
+    font-size: 16px;
+    color: #004AAD;
+
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
+}
+
+#search
+{
+    border-style: solid;
+    background-color: #FFE7D9;
+    border-color: #004AAD;
+    font-size: 16px;
+    color: #004AAD;
+    border-radius: 50px;
+    height: 25px;
+
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
+}
+
+#prompt
+{
+    text-align: center;
+    color: #004AAD;
+    /* text thickness */
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Koulen';
+}
+
+/* container */
+.light-container-index {
+    background-color: #DAEAFF;
+    border-radius: 25px;
+    border: 8px solid #C2DCFF;
+    padding: 10px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 0.5;
+}
+
+/* select */
+.selectBox {
+    border: 3px solid #004AAD;
+    background-color: #FFE7D9;
+    font-family: 'Koulen';
+    color: #004AAD;
+}
+
+#searchResults
+{
+    margin-left: 40px;
+    color: #DAEAFF;
+}
+
+.dark-container {
+    background-color: #C2DCFF;
+    border-radius: 25px;
+    border: 10px solid #92C0FF;
+    padding: 10px;
+    margin: 20px;
+}
