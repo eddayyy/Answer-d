@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 ﻿body {
     font-family: Arial, sans-serif;
 }
@@ -7,6 +8,16 @@ form {
     margin: 0 auto;
 }
 
+=======
+﻿#titleText {
+    text-decoration: underline;
+    font-size: x-large;
+    text-align: center;
+    color: #004AAD;
+}
+
+/* fields */
+>>>>>>> Stashed changes
 label {
     display: block;
     margin: 5px 0;
