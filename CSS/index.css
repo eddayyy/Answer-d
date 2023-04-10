@@ -1,4 +1,5 @@
-﻿/*body {
+/*body {
+
     position: relative;
     width: 1280px;
     height: 832px;
@@ -18,7 +19,7 @@
 }*/
 
 /*FAQ Header*/
-.faq {
+.faq {      
     position: absolute;
     text-align: center;
     left: 45%;
@@ -31,7 +32,7 @@
 }
 
 .questions {
-    /* q: How do I add classes? */
+/* q: How do I add classes? */
     margin-top: 120px;
     padding-left: 20px;
     font-family: 'Koulen';
@@ -52,18 +53,21 @@
     color: #FF914D;
 }
 
-#logInButton {
-    background-color: #FF914D;
-    color: white;
-    padding: 15px 32px;
-    font-size: 16px;
-    float: right;
-    border: none;
-    margin: 0;
+.questions {
+    /* q: How do I add classes? */
+    margin-top: 120px;
+    padding-left: 20px;
+    font-family: 'Koulen';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 1.5;
+    color: #004AAD;
 }
 
 /* navigation bar */
-.link {
+.link
+{
     display: block;
     color: white;
     text-align: center;

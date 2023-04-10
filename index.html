@@ -2,8 +2,10 @@
 <html>
 <head>
     <link rel="stylesheet" href="../Answer-d/CSS/main.css">
-    <link rel="stylesheet" href="../Answer-d/CSS/index.css">
+    <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
+
+    <link rel="icon" type="image/x-icon" href="../Answer-d/Images/favicon.png">
 
     <title>Answer'd</title>
 </head>
@@ -16,5 +18,103 @@
         <li><a class="link" href="Login.html">LOGIN/SIGN UP</a></li>
         <li><a class="link" href="index.html">HOME</a></li>
     </ul>
+    <!-- navigation bar -->
+    <!--<ul>
+      <li><a class="link" href="Login.html">LOGIN/SIGN UP</a></li>-->
+    <!--will link to menu
+    <li><a class="link" href="index.html">HOME</a></li>
+    </ul>
+    -->
+
+    <div class="content-container">
+        <p id="titleText">Welcome</p>
+
+        <div class="light-container-index">
+            <p id="headerText">Make A Post</p>
+            <table>
+                <tr>
+                    <td><img id="profile" src="../Answer-d/Images/defaultPic.png"></td>
+                    <td><input style="margin-left: 20px; margin-top: 10px; align-content: center; height: 60px" id="textField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br></td>
+                </tr>
+            </table>
+            <br><br><br>
+
+            <label for="classes" id="headerText" style="font-size: 15px">Class:</label>
+            <!--professor should be attached to class-->
+            <select id="classes" class="selectBox">
+                <option>362 Software Engineering</option>
+                <option>351 Operating Systems</option>
+                <option>332 Data Structures</option>
+                <option>375 Intro to Data Science and Big Data</option>
+            </select>
+            <br>
+
+            <input id="submitButton" type="submit" value="POST" onclick=""> <!--will add on click action later-->
+        </div>
+
+        <label for="filter" id="headerText" style="font-size: 15px; margin-left: 40px;">Filter:</label>
+        <select id="filter" class="selectBox">
+            <option>Class</option>
+            <option>Professor</option>
+            <option>Student Name (Alphabetical)</option>
+        </select>
+
+        <div class="dark-container-index">
+            <span id="headerText">Class:</span> <span id="orangeText">362 Software Engineering</span> <!-- will make responsive later -->
+            <br><br><br>
+            <span id="headerText">Professor:</span> <span id="orangeText">Joseph, Merrin</span> <!-- will make responsive later -->
+            <br><br><br>
+            <table>
+                <tr>
+                    <td><img id="profile" src="../Answer-d/Images/defaultPic.png" style="height: 70px; width: 70px"></td>
+                    <td>
+                        <span id="headerText" style="margin-left: 20px; margin-top: 10px; font-size: 20px">Name:</span> <span id="orangeText">John Doe</span>
+                        <br>
+                        <p style="margin-left: 20px; padding-top: 20px; padding-left: 10px; height: 30px; width: auto; font-size: 20px" id="userQuestion">What is Scrum?</p> <!--will make responsive later-->
+                        <br>
+                        <p style="margin-left: 20px; margin-top: -10px;" id="smallBlueText">Date Posted: 3/8/2023</p>
+                    </td>
+                </tr>
+            </table>
+            <br>
+
+            <input style="margin-left: 20px; margin-top: 10px; align-content: center" id="textField" type="text" size="50" placeholder="TYPE SOMETHING ..." required>
+            <br>
+            <input id="submitButton" type="submit" value="REPLY" onclick=""> <!--will add on click action later-->
+        </div>
+
+    </div>
+
+ <!--FAQ Portion-->
+    <!-- navigation bar -->
+    <!--will link to menu
+    <li><a class="link" href="index.html">HOME</a></li>
+    </ul>
+    -->
+    <!--FAQ Portion-->
+    <div class="content-container">
+        <div class="faq">
+            <p id="titleText">FAQS</p>
+        </div>
+        <div class="questions">
+            <p>Q: HOW DO I ADD CLASSES?</p>
+        </div>
+        <div class="answers">
+            <p>A: YOU CAN ADD CLASSES WHEN YOU OPEN YOUR PROFILE.</p>
+        </div>
+        <div class="questions">
+            <p>Q: How can i add a course?</p>
+        </div>
+        <div class="answers">
+            <p>A: You can add a course in the 'Add Course' Section.</p>
+        </div>
+        <div class="questions">
+            <p>Q: Once I post my question, can I go back and edit/delete it?</p>
+        </div>
+        <div class="answers">
+
+            <p>A: No, a question cannot be modified or deleted once it has been posted</p>
+        </div>
+    </div>
 </body>
 </html>
