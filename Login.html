@@ -18,7 +18,7 @@
       <li style="float: left;"><a href="index.html"><img id="logo" src="../Answer-d/Images/Answer'd.png"></a></li>
 
       <!--right (links) -->
-      <li><a class="link" href="Login.html">LOGIN/SIGN UP</a></li>
+      <li><a class="link" id="loginProfile" href="Login.html">LOGIN/SIGN UP</a></li>
       <li><a class="link" href="index.html">HOME</a></li>
   </ul>
 
@@ -38,8 +38,7 @@
               <p id="forgetPassword">FORGET PASSWORD?</p>
               <!--Submit button and sign up link-->
               <center>
-                  <input style="margin: auto" id="submitButton" type="submit" value="SUBMIT" onclick="location.href='index.html'"><br>
-                  <a href="profile.html" onclick="changeToProfile('loginProfile')"></a>
+                  <button style="margin: auto" id="submitButton" href="profile.html" onclick="changeToProfile('loginProfile', 'index.html')">SUBMIT</button><br>
                   <p id="dontHaveAccount">
                       DON'T HAVE AN ACCOUNT?<br>
                       <a id="signUpLink" href="SignUp.html">CLICK HERE TO SIGN UP!</a>
