@@ -41,19 +41,6 @@
     font-family: 'Koulen';
 }
 
-/* container */
-.light-container-index {
-    background-color: #DAEAFF;
-    border-radius: 25px;
-    border: 8px solid #C2DCFF;
-    padding: 10px;
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    line-height: 0.5;
-}
-
 /* select */
 .selectBox {
     border: 3px solid #004AAD;
@@ -66,12 +53,4 @@
 {
     margin-left: 40px;
     color: #DAEAFF;
-}
-
-.dark-container {
-    background-color: #C2DCFF;
-    border-radius: 25px;
-    border: 10px solid #92C0FF;
-    padding: 10px;
-    margin: 20px;
 }
