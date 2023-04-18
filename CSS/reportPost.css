@@ -1,39 +1,4 @@
-﻿body {
-    border-color: orange;
-    font-family: "Koulen", "Times New Roman";
-    margin: 0;
-}
-
-/* navigation bar */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #FF914D;
-}
-
-li {
-    float: right;
-}
-
-.link {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    font-size: x-large;
-    text-decoration: none;
-}
-
-#titleText {
-    text-decoration: underline;
-    font-size: x-large;
-    text-align: center;
-    color: #004AAD;
-}
-
-/* fields */
+﻿/* fields */
 label {
     color: #004AAD;
     font-weight: 700;
@@ -104,6 +69,7 @@ label {
     font-family: "Koulen", "Times New Roman";
     width: 100%;
     resize: none;
+    padding-left: 10px;
 }
 
 #submitButton {
