@@ -1,35 +1,65 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
-    <link rel="stylesheet" href="../Answer-d/CSS/main.css">
     <link rel="stylesheet" href="CSS/reportPost.css">
     <script src="../Answer-d/JS/main.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
 
-    <link rel="icon" type="image/x-icon" href="../Answer-d/Images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.png">
 
-    <title>Answer'd</title>
+    <title>Report Post</title>
 </head>
+
 <body>
+    <!--will connect to menu
+              <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+              <meta http-equiv="Content-Style-Type" content="text/css">
+            -->
+
+    <!--will connect to menu
+              <meta name="Generator" content="Cocoa HTML Writer">
+              <meta name="CocoaVersion" content="2299.4">
+              <style type="text/css">
+              </style>
+            -->
     <ul>
         <!-- left(image) -->
-        <li style="float: left;"><a href="index.html"><img id="logo" src="../Answer-d/Images/Answer'd.png"></a></li>
+        <li style="float: left;"><a href="index.html"><img id="logo" src="Images/Answer'd.png"
+                    style="height: 60px;"></a></li>
 
         <!--right (links) -->
         <li><a class="link" href="Login.html">LOGIN/SIGN UP</a></li>
         <li><a class="link" href="index.html">HOME</a></li>
     </ul>
-    <!-- navigation bar -->
-    <!--<ul>
-      <li><a class="link" href="Login.html">LOGIN/SIGN UP</a></li>-->
-    <!--will link to menu
-    <li><a class="link" href="index.html">HOME</a></li>
-    </ul>
-    -->
 
-    <div class="content-container">
-        <p id="titleText">Report Post</p>
-    </div>
+    <p id="titleText">Report Post</p>
 
-</body>
-</html>
+    <div style="margin: auto; width: 25%">
+        <form>
+            <label for="reportReason">Select a reason:</label>
+            <select id="reportReason" required>
+                <option value="" disabled selected>Select a reason...</option>
+                <option value="offensiveLanguage">Offensive language</option>
+                <option value="inappropriateContent">Inappropriate Content</option>
+                <option value="spam">Spam</option>
+                <option value="misleadingInfo">Misleading Info</option>
+                <option value="harassment">Harassment</option>
+                <option value="hateSpeech">Hate speech</option>
+                <option value="violence">Violence or harmful behavior</option>
+                <option value="privacyViolation">Privacy violation</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label id="screenshotUploadLabel" for="screenshotUpload">Upload a screenshot (optional):
+                <input id="screenshotUpload" type="file" accept="image/*">
+            </label><br><br>
+
+            <label for="additionalInfo">Additional Information (optional):</label>
+            <textarea id="additionalInfo" rows="5" cols="50"
+                placeholder="Provide additional details..."></textarea><br><br>
+        </form>
+        <div id="belowForm">
+            <input id="submitButton" type="submit" value="SUBMIT REPORT" onclick="location.href='index.html'"><br>
+        </div>
+</body
