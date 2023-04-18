@@ -1,3 +1,138 @@
 ﻿body {
+    border-color: orange;
+    font-family: "Koulen", "Times New Roman";
+    margin: 0;
 }
 
+/* navigation bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FF914D;
+}
+
+li {
+    float: right;
+}
+
+.link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: x-large;
+    text-decoration: none;
+}
+
+#titleText {
+    text-decoration: underline;
+    font-size: x-large;
+    text-align: center;
+    color: #004AAD;
+}
+
+/* fields */
+label {
+    color: #004AAD;
+    font-weight: 700;
+    display: block;
+    /* Added this line to align with SignUp page */
+    text-align: left;
+    /* Added this line to align with SignUp page */
+    margin-bottom: 5px;
+    /* Added this line to align with SignUp page */
+}
+
+.prompt {
+    font-weight: bold;
+    font-size: 20px;
+    color: #004AAD;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.disclaimer {
+    font-size: 14px;
+    color: #777;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#reportReason,
+#contactInfo,
+#screenshotUpload {
+    border: none;
+    background-color: #FFE7D9;
+    font-size: 16px;
+    color: #004AAD;
+    border-radius: 50px;
+    height: 25px;
+    font-family: "Koulen", "Times New Roman";
+}
+
+#screenshotUpload {
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+}
+
+#screenshotUploadLabel {
+    background-color: #FF914D;
+    color: white;
+    padding: 6px 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 15px;
+    font-family: "Koulen", "Times New Roman";
+    width: 100%;
+    box-sizing: border-box;
+    height: 35px;
+    display: inline-block;
+    text-align: center;
+    font-weight: normal;
+    /* Added this line to reduce thickness */
+}
+
+#additionalInfo {
+    border: none;
+    background-color: #FFE7D9;
+    font-size: 16px;
+    color: #004AAD;
+    border-radius: 15px;
+    font-family: "Koulen", "Times New Roman";
+    width: 100%;
+    resize: none;
+}
+
+#submitButton {
+    background-color: #FF914D;
+    color: white;
+    padding: 15px 32px;
+    font-size: 20px;
+    border: none;
+    border-radius: 50px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: max-content;
+    font-family: "Koulen", "Times New Roman";
+}
+
+#form {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#belowForm {
+    margin: 0;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
