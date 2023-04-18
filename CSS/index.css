@@ -111,3 +111,10 @@
     margin-bottom: 20px;
     line-height: 0.5;
 }
+
+/* image */
+#flag {
+    padding-left: 30px;
+    width: 50px;
+    height: auto;
+}
