@@ -4,7 +4,26 @@
     grid-gap: 20px;
 }
 
-#forumLink
-{
+#forumLink {
     color: #004AAD;
+}
+
+#displayName {
+    text-align: left;
+    color: #FF914D;
+    /* text thickness */
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Koulen';
+    margin-left: 10px;
+}
+
+#displayEmail {
+    text-align: left;
+    color: #FF914D;
+    /* text thickness */
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Koulen';
+    margin-left: 10px;
 }

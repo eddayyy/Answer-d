@@ -1,8 +1,9 @@
 ﻿<!DOCTYPE html>
 <html>
+
 <head>
-    <link rel="stylesheet" href="CSS/main.css">
-    <link rel="stylesheet" href="CSS/forum.css">
+    <link rel="stylesheet" href="../Answer-d/CSS/main.css">
+    <link rel="stylesheet" href="../Answer-d/CSS/forum.css">
     <script src="../Answer-d/JS/main.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
 
@@ -10,6 +11,7 @@
 
     <title>Answer'd</title>
 </head>
+
 <body>
     <ul>
         <!-- left(image) -->
@@ -21,48 +23,51 @@
     </ul>
 
     <div class="content-container">
-        <p id="titleText">Forum<p>
+        <p id="titleText">Forum
+        <p>
 
-            <p id="searchBy">&nbspSEARCH BY: 
-                <select id="searchByDropDown">
-                    <option>Class</option>
-                    <option>Section</option>
-                    <option>Professor</option>
-                </select>
-                <input id="search" type="text" size="50" placeholder="Search..."><br><br>
-            </p>
+        <p id="searchBy">&nbspSEARCH BY:
+            <select id="searchByDropDown">
+                <option>Class</option>
+                <option>Section</option>
+                <option>Professor</option>
+            </select>
+            <input id="search" type="text" size="50" placeholder="Search..."><br><br>
+        </p>
 
-            <p id="prompt">CAN'T FIND THE QUESTION YOUR'RE LOOKING FOR? POST ONE BELOW!</p>
-            
-            <div class="light-container">
-                <p id="headerText">ASK A QUESTION</p>
-                <table>
-                    <tr>
-                        <td><img id="profile" src="Images/defaultPic.png"></td>
-                        <td><input style="margin-left: 20px; margin-top: 10px; align-content: center; height: 60px" id="textField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br></td>
-                    </tr>
-                </table>
-    
-                <label for="classes" id="headerText" style="font-size: 15px">Class:</label>
-                <!--professor should be attached to class-->
-                <select id="classes" class="selectBox">
-                    <option>362 Software Engineering</option>
-                    <option>351 Operating Systems</option>
-                    <option>332 Data Structures</option>
-                    <option>375 Intro to Data Science and Big Data</option>
-                </select>
-                <br>
-    
-                <input id="submitButton" type="submit" value="POST" onclick=""> <!--will add on click action later-->
-            </div>
+        <p id="prompt">CAN'T FIND THE QUESTION YOUR'RE LOOKING FOR? POST ONE BELOW!</p>
 
-            <p id="searchResults">### SEARCH RESULTS FOUND</p>
+        <div class="light-container">
+            <p id="headerText">ASK A QUESTION</p>
+            <table>
+                <tr>
+                    <td><img id="profile" src="Images/defaultPic.png"></td>
+                    <td><input style="margin-left: 20px; margin-top: 10px; align-content: center; height: 60px"
+                            id="textField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br></td>
+                </tr>
+            </table>
 
-            <div class="dark-container">
+            <label for="classes" id="headerText" style="font-size: 15px">Class:</label>
+            <!--professor should be attached to class-->
+            <select id="classes" class="selectBox">
+                <option>362 Software Engineering</option>
+                <option>351 Operating Systems</option>
+                <option>332 Data Structures</option>
+                <option>375 Intro to Data Science and Big Data</option>
+            </select>
+            <br>
 
-            </div>
-    
+            <input id="submitButton" type="submit" value="POST" onclick=""> <!--will add on click action later-->
+        </div>
+
+        <p id="searchResults">### SEARCH RESULTS FOUND</p>
+
+        <div class="dark-container">
+
+        </div>
+
     </div>
 
 </body>
+
 </html>
