@@ -1,21 +1,19 @@
-﻿var changed = false;
+﻿// Functions for Login.html
+// ============================================================
+// Changes Login/Signup link in the navbar to the profile link
+var changed = false;
 
-function ChangeText(p1) {
+function ChangeText() {
     var p1 = document.getElementById("loginProfile");
     p1.innerHTML = "Profile";
     p1.href = "Profile.html";
-    //document.location = 'profile.html';
     changed = true;
+    sessionStorage.setItem('loggedIn', 'true');
 }
 
-function checkChanged() {
-    if (changed == true) {
-        ChangeText();
-    }
-    return;
-}
-
-// SignUp.HTML - This function saves the user's information 
+// Functions for SignUp.html
+// ============================================================
+// Saves the user's information and checks for password match
 function saveUserData() {
     const username = document.getElementById('usernameField').value;
     const email = document.getElementById('emailField').value;
@@ -35,7 +33,9 @@ function saveUserData() {
     return true;
 }
 
-// Profile.html - Updates the username and email with saveUserData()
+// Functions for Profile.html
+// ============================================================
+// Updates the username and email with saved user data
 function displayUserData() {
     const username = localStorage.getItem('username');
     const email = localStorage.getItem('email');
@@ -46,17 +46,42 @@ function displayUserData() {
     }
 }
 
-// User data will be deleted & the dummy data will be displayed 
+// Restores NavBar after thelogout button is clicked
+function resetNavBarToLogin() {
+    sessionStorage.removeItem('loggedIn');
+    var p1 = document.getElementById("loginProfile");
+    p1.innerHTML = "LOGIN/SIGN UP";
+    p1.href = "Login.html";
+}
+
+// Functions for all pages
+// ============================================================
+// Updates the navigation bar based on the loggedIn flag
+function updateNavigationBar() {
+    const loggedIn = sessionStorage.getItem('loggedIn');
+
+    if (loggedIn) {
+        var p1 = document.getElementById("loginProfile");
+        p1.innerHTML = "Profile";
+        p1.href = "Profile.html";
+    }
+}
+
+// Call the updateNavigationBar function when the window loads
+window.addEventListener('load', updateNavigationBar);
+
+// Deletes user data and displays dummy data
 function deleteUserData() {
     localStorage.removeItem('username');
     localStorage.removeItem('email');
     localStorage.removeItem('password');
 }
 
-// User data will be deleted when the Profile page is left 
+// Deletes user data when the Profile page is left
 window.addEventListener('beforeunload', function (event) {
     // Check if the current page is the profile page
     if (document.querySelector('title').innerText === 'Profile') {
         deleteUserData();
     }
 });
+
