@@ -5,8 +5,8 @@
     <link rel="stylesheet" href="../Answer-d/CSS/main.css">
     <link rel="stylesheet" href="../Answer-d/CSS/Profile.css">
     <script src="../Answer-d/JS/main.js" defer></script>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
     <link rel="icon" type="image/x-icon" href="Images/favicon.png">
 
     <title>Profile</title>
@@ -14,11 +14,10 @@
 
 <body onload="displayUserData()">
     <ul>
-
-        <!-- left(image) -->
+        <!-- Logo -->
         <li style="float: left;"><a href="index.html"><img id="logo" src="Images/Answer'd.png"></a></li>
 
-        <!--right (links) -->
+        <!-- Navigation links -->
         <li><a class="link" href="Profile.html">Profile</a></li>
         <li><a class="link" href="index.html" onclick="ChangeText('loginProfile2')">HOME</a></li>
     </ul>
@@ -26,6 +25,7 @@
     <div class="content-container">
         <p id="titleText">Profile</p>
         <div class="grid-container">
+            <!-- User information container -->
             <div class="dark-container">
                 <img id="profile" style="width: 150px; height: 150px" src="Images/defaultPic.png">
                 <br><br>
@@ -38,6 +38,8 @@
                 <br><br>
                 <p id="smallBlueText" style="text-decoration: underline">Registered user since 03/08/2023</p>
             </div>
+
+            <!-- Class information container -->
             <div class="light-container">
                 <p id="titleText">My Classes</p>
 
@@ -51,10 +53,14 @@
                     <center><a id="headerText" style="font-size: 20px" href="forum.html">Ask Question</a></center>
                 </div>
 
+                <!-- Add courses link -->
                 <a id="smallBlueText" style="text-decoration: underline" href="AddCourses.html">Add Courses +</a>
             </div>
         </div>
     </div>
+    <center><input id="logOutButton" type="button" value="LOGOUT"
+            onclick="location.href='index.html'; resetNavBarToLogin(); deleteUserData()"><br></center>
+
 </body>
 
 </html>
