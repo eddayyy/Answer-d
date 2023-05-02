@@ -45,3 +45,18 @@ function displayUserData() {
         document.getElementById('displayEmail').innerText = email;
     }
 }
+
+// User data will be deleted & the dummy data will be displayed 
+function deleteUserData() {
+    localStorage.removeItem('username');
+    localStorage.removeItem('email');
+    localStorage.removeItem('password');
+}
+
+// User data will be deleted when the Profile page is left 
+window.addEventListener('beforeunload', function (event) {
+    // Check if the current page is the profile page
+    if (document.querySelector('title').innerText === 'Profile') {
+        deleteUserData();
+    }
+});
