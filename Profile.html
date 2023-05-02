@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="../Answer-d/CSS/main.css">
+    <link rel="stylesheet" href="CSS/main.css">
     <link rel="stylesheet" href="CSS/Profile.css">
+    <script src="../Answer-d/JS/main.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
 
     <link rel="icon" type="image/x-icon" href="../Answer-d/Images/favicon.png">
@@ -12,18 +13,18 @@
 <body>
     <ul>
         <!-- left(image) -->
-        <li style="float: left;"><a href="index.html"><img id="logo" src="../Answer-d/Images/Answer'd.png"></a></li>
+        <li style="float: left;"><a href="index.html"><img id="logo" src="Images/Answer'd.png"></a></li>
 
         <!--right (links) -->
-        <li><a class="link" href="Login.html">LOGIN/SIGN UP</a></li>
-        <li><a class="link" href="index.html">HOME</a></li>
+        <li><a class="link" href="profile.html">Profile</a></li>
+        <li><a class="link" href="index.html" onclick="ChangeText('loginProfile2')">HOME</a></li>
     </ul>
 
     <div class="content-container">
         <p id="titleText">Profile</p>
         <div class="grid-container">
             <div class="dark-container">
-                <img id="profile" style="width: 150px; height: 150px" src="../Answer-d/Images/defaultPic.png">
+                <img id="profile" style="width: 150px; height: 150px" src="Images/defaultPic.png">
                 <br><br>
                 <span id="headerText">Name:</span> <span id="orangeText">John Doe</span>
                 <br><br>
@@ -42,9 +43,11 @@
                     <span id="headerText">Section:</span> <span id="orangeText">15/16</span>
                     <br><br>
                     <span id="headerText">Professor:</span> <span id="orangeText">Joseph, Merin</span>
+                    <br><br>
+                        <center><a id="headerText" style="font-size: 20px" href="forum.html">Ask Question</a></center>
                 </div>
 
-                <p id="smallBlueText" style="text-decoration: underline">Add Classes +</p>
+                <a id="smallBlueText" style="text-decoration: underline" href="AddCourses.html">Add Courses +</a>
             </div>
         </div>
     </div>

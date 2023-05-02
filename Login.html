@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <link rel="stylesheet" href="CSS/Login.css">
+    <link rel="stylesheet" href="../Answer-d/CSS/main.css">
+    <link rel="stylesheet" href="../Answer-d/CSS/Login.css">
+    <script src="../Answer-d/JS/main.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
 
     <link rel="icon" type="image/x-icon" href="../Answer-d/Images/favicon.png">
@@ -9,57 +11,41 @@
     <title>Login</title>
 </head>
 <body>
-<!--will connect to menu
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
--->
-
-  <!--will connect to menu
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2299.4">
-  <style type="text/css">
-  </style>
--->
   
   <!-- Navigation bar -->
   <ul>
-    <!-- left(image) -->
-    <li style="float: left;"><a href="index.html"><img id="logo" src="Images/Answer'd.png" style="height: 60px;"></a></li>
+      <!-- left(image) -->
+      <li style="float: left;"><a href="index.html"><img id="logo" src="../Answer-d/Images/Answer'd.png"></a></li>
 
-    <!--right (links) -->
-    <li><a class="link" href="Login.html">LOGIN/SIGN UP</a></li>
-    <li><a class="link" href="index.html">HOME</a></li>
+      <!--right (links) -->
+      <li><a class="link" id="loginProfile" href="Login.html">LOGIN/SIGN UP</a></li>
+      <li><a class="link" href="index.html">HOME</a></li>
   </ul>
-  <p id="titleText">Login</p>
 
+  <div class="content-container">
+      <p id="titleText">Login</p>
 
-    
+      <div style="margin: auto; width: 30%">
+          <!--Form-->
+          <form>
+              <!--Username field-->
+              <label for="usernameInput">USERNAME/EMAIL:</label><br>
+              <input id="usernameField" style="padding-left: 10px;" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
 
-    <div style="margin: auto; width: 25%">
-
-      <!--Form-->
-      <form>
-        <!--Username field-->
-        <label for="usernameInput">USERNAME/EMAIL:</label><br>
-        <input id="usernameField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
-
-        <!--Password field-->
-        <label for="password">PASSWORD:</label><br>
-        <input id="passwordField" type="password" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
-
-        <p id="forgetPassword">FORGET PASSWORD?</p>
-      </form>
-    </div>
-
-    <div id="belowForm">
-
-      <!--Submit button and sign up link-->
-      <input id="submitButton" type="submit" value="SUBMIT" onclick="location.href='index.html'"><br>
-        <p id="dontHaveAccount">
-        DON'T HAVE AN ACCOUNT?<br>
-        <a id="signUpLink" href="SignUp.html">CLICK HERE TO SIGN UP!</a>
-        </p>
-    </div>
-    </body>
+              <!--Password field-->
+              <label for="password">PASSWORD:</label><br>
+              <input id="passwordField" style="padding-left: 10px;" type="password" size="50" placeholder="TYPE SOMETHING ..." required><br><br>
+              <p id="forgetPassword">FORGET PASSWORD?</p>
+              <!--Submit button and sign up link-->
+              <center>
+                  <button id="submitButton" onclick="ChangeText('loginProfile')">SUBMIT</button><br>
+                  <p id="dontHaveAccount">
+                      DON'T HAVE AN ACCOUNT?<br>
+                      <a id="signUpLink" href="SignUp.html">CLICK HERE TO SIGN UP!</a>
+              </center>
+          </form>
+      </div>
+ 
+  </div>
+</body>
 </html>
-

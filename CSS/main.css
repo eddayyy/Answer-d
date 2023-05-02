@@ -157,6 +157,7 @@ label {
 
 /* buttons */
 #submitButton {
+    margin: auto;
     background-color: #FF914D;
     color: white;
     padding: 5px 32px;

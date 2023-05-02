@@ -1,0 +1,71 @@
+﻿#searchByDropDown {
+    border-style: solid;
+    background-color: #FFE7D9;
+    border-color: #004AAD;
+    font-size: 16px;
+    color: #004AAD;
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
+}
+
+#search {
+    border-style: solid;
+    background-color: #FFE7D9;
+    border-color: #004AAD;
+    font-size: 16px;
+    color: #004AAD;
+    border-radius: 50px;
+    height: 25px;
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
+}
+
+#filterByDropDown {
+    border-style: solid;
+    background-color: #FFE7D9;
+    border-color: #004AAD;
+    font-size: 16px;
+    color: #004AAD;
+    /* Koulen font and Times New Roman as a fallback */
+    font-family: "Koulen", "Times New Roman";
+}
+
+.bubble {
+    border-style: solid;
+    border-color: #FF914D;
+    border-radius: 25px;
+    border-width: 7px;
+    background-color: #FFE7D9;
+    padding: 5%;
+    width: 270px;
+}
+
+/* column of 3 class "bubbles" */
+.bubbleColumn {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    gap: 40px;
+    justify-content: center;
+}
+
+/*bubbleColumn
+{
+    margin: 0;
+    width: 300px;
+
+    /* Center the form vertically and horizontally*/
+/*position: absolute;
+    top: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}*/
+
+.blue {
+    color: #004AAD;
+    text-decoration: underline;
+}
+
+.orange {
+    color: #FF914D;
+}
