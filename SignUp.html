@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
     <script src="../Answer-d/JS/main.js" defer></script>
 
-    <link rel="icon" type="image/x-icon" href="../Answer-d/Images/favicon.png">
+    <link rel="icon" type="image/x-icon" href="Images/favicon.png">
 
     <title>Sign Up</title>
     <meta name="Generator" content="Cocoa HTML Writer">
@@ -30,10 +30,12 @@
 
         <div style="margin: auto; width: 30%">
             <form onsubmit="return saveUserData()">
+                <!--Username field-->
                 <label for="usernameInput">USERNAME:</label><br>
                 <input id="usernameField" style="padding-left: 10px;" type="text" size="50"
                     placeholder="TYPE SOMETHNING . . ." required><br><br>
 
+                <!--Password field-->
                 <label for="email">Email:</label><br>
                 <input id="emailField" type="email" style="padding-left: 10px;" size="50"
                     placeholder="TYPE SOMETHNING . . ." required><br><br>
@@ -46,6 +48,7 @@
                 <input id="confirmPassword" style="padding-left: 10px;" type="password" size="50"
                     placeholder="TYPE SOMETHING ..." required><br><br>
 
+                <!--Submit button-->
                 <center><input id="submitButton" type="submit" value="SUBMIT"
                         onclick="ChangeText('loginProfile'); location.href='index.html'"><br>
                 </center>

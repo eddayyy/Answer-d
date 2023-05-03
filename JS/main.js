@@ -46,6 +46,13 @@ function displayUserData() {
     }
 }
 
+// Once logout button is clicked the following is done
+function handleLogout() {
+    resetNavBarToLogin();
+    deleteUserData();
+    location.href = 'index.html';
+}
+
 // Restores NavBar after thelogout button is clicked
 function resetNavBarToLogin() {
     sessionStorage.removeItem('loggedIn');
@@ -77,11 +84,5 @@ function deleteUserData() {
     localStorage.removeItem('password');
 }
 
-// Deletes user data when the Profile page is left
-window.addEventListener('beforeunload', function (event) {
-    // Check if the current page is the profile page
-    if (document.querySelector('title').innerText === 'Profile') {
-        deleteUserData();
-    }
-});
+
 
