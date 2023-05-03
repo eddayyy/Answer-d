@@ -18,8 +18,8 @@
         <li style="float: left;"><a href="index.html"><img id="logo" src="Images/Answer'd.png"></a></li>
 
         <!-- Navigation links -->
-        <li><a class="link" href="Profile.html">Profile</a></li>
-        <li><a class="link" href="index.html" onclick="ChangeText('loginProfile2')">HOME</a></li>
+        <li><a class="link" id="loginProfile" href="Login.html">LOGIN/SIGN UP</a></li>
+        <li><a class="link" href="index.html">HOME</a></li>
     </ul>
 
     <div class="content-container">
@@ -27,7 +27,7 @@
         <div class="grid-container">
             <!-- User information container -->
             <div class="dark-container">
-                <img id="profile" style="width: 150px; height: 150px" src="Images/defaultPic.png">
+                <img id="profile" style="width: 150px; height: 150px" src="../Answer-d/Images/defaultPic.png">
                 <br><br>
                 <span id="headerText">Name:</span> <span class="orangeText" id="displayName">John Doe</span>
                 <br><br>
@@ -58,8 +58,8 @@
             </div>
         </div>
     </div>
-    <center><input id="logOutButton" type="button" value="LOGOUT"
-            onclick="location.href='index.html'; resetNavBarToLogin(); deleteUserData()"><br></center>
+    <center><input id="logOutButton" type="button" value="LOGOUT" onclick="handleLogout(); resetNavBarToLogin();"><br>
+    </center>
 
 </body>
 
