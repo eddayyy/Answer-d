@@ -30,11 +30,47 @@
             <table>
                 <tr>
                     <td><img id="profile" src="../Answer-d/Images/defaultPic.png"></td>
+<<<<<<< HEAD
                     <td><input style="margin-left: 20px; margin-top: 10px; align-content: center; height: 60px"
                             id="textField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br></td>
                 </tr>
             </table>
 
+=======
+                    <td><br><br></td>
+                </tr>
+            </table>
+
+            <section>
+                
+                <!--<input style="margin-left: 20px; margin-top: 10px; align-content: center; height: 60px" oninput="this.size = this.value.length" type="text" id="tbuser" placeholder="Type Something...">--> 
+                <input style="margin-left: 20px; margin-top: 10px; align-content: center; height: 60px" type="text" id="tbuser0" placeholder="Type Something..."> <!--will add on click action later--> 
+                <br>
+            </section>
+            <br><br><br>
+
+            <script>
+                const txt0 = document.getElementById('tbuser0');
+                const btn0 = document.getElementById('btn0');
+                const out0 = document.getElementById('output0');
+        
+                function fun0() {
+                    out0.innerHTML = txt0.value;
+                    out0.style.lineHeight = 2;
+                    out0.style.color="#004AAD";
+                    out0.style.backgroundColor="#92C0FF";
+                    out0.style.borderRadius="25px";
+                    out0.style.margin="20px;"
+                }
+        
+                btn0.addEventListener('click',fun0);
+        
+        
+            </script>
+            <p class="output" id="output0"></p>
+
+
+>>>>>>> parent of 13fe5dc (fixed post)
             <label for="classes" id="headerText" style="font-size: 15px">Class:</label>
             <!--professor should be attached to class-->
             <select id="classes" class="selectBox">
