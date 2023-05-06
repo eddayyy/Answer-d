@@ -1,9 +1,8 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <link rel="stylesheet" href="../Answer-d/CSS/main.css">
-    <link rel="stylesheet" href="../Answer-d/CSS/index.css">
+    <link rel="stylesheet" href="CSS/index.css">
     <script src="../Answer-d/JS/main.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
 
@@ -11,14 +10,13 @@
 
     <title>Answer'd</title>
 </head>
-
-<body onload="updateNavigationBar()">
+<body>
     <ul>
         <!-- left(image) -->
         <li style="float: left;"><a href="index.html"><img id="logo" src="../Answer-d/Images/Answer'd.png"></a></li>
 
         <!-- right -->
-        <li><a class="link" id="loginProfile" href="Login.html">LOGIN/SIGN UP</a></li>
+        <li><a class="link" href="Login.html" id="loginProfile">LOGIN/SIGN UP</a></li>
         <li><a class="link" href="index.html">HOME</a></li>
     </ul>
 
@@ -30,47 +28,10 @@
             <table>
                 <tr>
                     <td><img id="profile" src="../Answer-d/Images/defaultPic.png"></td>
-<<<<<<< HEAD
-                    <td><input style="margin-left: 20px; margin-top: 10px; align-content: center; height: 60px"
-                            id="textField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br></td>
+                    <td><input style="margin-left: 20px; margin-top: 10px; align-content: center; height: 60px" id="textField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br></td>
                 </tr>
             </table>
 
-=======
-                    <td><br><br></td>
-                </tr>
-            </table>
-
-            <section>
-                
-                <!--<input style="margin-left: 20px; margin-top: 10px; align-content: center; height: 60px" oninput="this.size = this.value.length" type="text" id="tbuser" placeholder="Type Something...">--> 
-                <input style="margin-left: 20px; margin-top: 10px; align-content: center; height: 60px" type="text" id="tbuser0" placeholder="Type Something..."> <!--will add on click action later--> 
-                <br>
-            </section>
-            <br><br><br>
-
-            <script>
-                const txt0 = document.getElementById('tbuser0');
-                const btn0 = document.getElementById('btn0');
-                const out0 = document.getElementById('output0');
-        
-                function fun0() {
-                    out0.innerHTML = txt0.value;
-                    out0.style.lineHeight = 2;
-                    out0.style.color="#004AAD";
-                    out0.style.backgroundColor="#92C0FF";
-                    out0.style.borderRadius="25px";
-                    out0.style.margin="20px;"
-                }
-        
-                btn0.addEventListener('click',fun0);
-        
-        
-            </script>
-            <p class="output" id="output0"></p>
-
-
->>>>>>> parent of 13fe5dc (fixed post)
             <label for="classes" id="headerText" style="font-size: 15px">Class:</label>
             <!--professor should be attached to class-->
             <select id="classes" class="selectBox">
@@ -92,33 +53,26 @@
         </select>
 
         <div class="dark-container">
-            <span id="headerText">Class:</span> <span id="orangeText">362 Software Engineering</span>
-            <!-- will make responsive later -->
+            <span id="headerText">Class:</span> <span id="orangeText">362 Software Engineering</span> <!-- will make responsive later -->
             <br>
-            <span id="headerText">Professor:</span> <span id="orangeText">Joseph, Merrin</span>
-            <!-- will make responsive later -->
+            <span id="headerText">Professor:</span> <span id="orangeText">Joseph, Merrin</span> <!-- will make responsive later -->
             <table>
                 <tr>
-                    <td><img id="profile" src="../Answer-d/Images/defaultPic.png" style="height: 70px; width: 70px">
-                    </td>
+                    <td><img id="profile" src="../Answer-d/Images/defaultPic.png" style="height: 70px; width: 70px"></td>
                     <td>
-                        <span id="headerText" style="margin-left: 20px; font-size: 20px">Name:</span> <span
-                            id="orangeText">John Doe</span>
-                        <p style="margin-left: 20px; padding-left: 10px; height: 30px; width: auto; font-size: 20px"
-                            id="userQuestion">What is Scrum?</p> <!--will make responsive later-->
+                        <span id="headerText" style="margin-left: 20px; font-size: 20px">Name:</span> <span id="orangeText">John Doe</span>
+                        <p style="margin-left: 20px; padding-left: 10px; height: 30px; width: auto; font-size: 20px" id="userQuestion">What is Scrum?</p> <!--will make responsive later-->
                         <p style="margin-left: 20px;" id="smallBlueText">Date Posted: 3/8/2023</p>
                     </td>
                 </tr>
             </table>
 
-            <input style="margin-left: 20px; margin-top: 10px; align-content: center" id="textField" type="text"
-                size="50" placeholder="TYPE SOMETHING ..." required>
+            <input style="margin-left: 20px; margin-top: 10px; align-content: center" id="textField" type="text" size="50" placeholder="TYPE SOMETHING ..." required>
             <br>
             <table>
                 <tr>
                     <td><input id="submitButton" type="submit" value="REPLY" onclick=""></td>
-                    <td><a href="reportPost.html"><img id="flag" src="../Answer-d/Images/reportFlag.PNG"></a></td>
-                    <!--will add on click action later-->
+                    <td><a href="reportPost.html"><img id="flag" src="../Answer-d/Images/reportFlag.png"></a></td> <!--will add on click action later-->
                 </tr>
             </table>
         </div>
@@ -157,5 +111,4 @@
         </div>
     </div>
 </body>
-
 </html>
