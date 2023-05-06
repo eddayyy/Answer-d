@@ -126,7 +126,7 @@ label {
     font-weight: 700;
 }
 
-#textField {
+#textField, #tbuser0, #tbuser {
     border: none;
     background-color: #FFE7D9;
     font-size: 16px;
@@ -156,7 +156,7 @@ label {
 }
 
 /* buttons */
-#submitButton {
+#submitButton, #btn0, #btn1 {
     margin: auto;
     background-color: #FF914D;
     color: white;
