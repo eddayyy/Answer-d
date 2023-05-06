@@ -1,50 +1,39 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link rel="stylesheet" href="../Answer-d/CSS/main.css">
-    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="../Answer-d/CSS/index.css">
+    <script src="../Answer-d/JS/main.js" defer></script>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Koulen">
 
     <link rel="icon" type="image/x-icon" href="../Answer-d/Images/favicon.png">
 
     <title>Answer'd</title>
 </head>
+
+<body onload="updateNavigationBar()">
     <ul>
         <!-- left(image) -->
         <li style="float: left;"><a href="index.html"><img id="logo" src="../Answer-d/Images/Answer'd.png"></a></li>
 
-        <!--right (links) -->
-        <li><a class="link" href="Login.html">LOGIN/SIGN UP</a></li>
+        <!-- right -->
+        <li><a class="link" id="loginProfile" href="Login.html">LOGIN/SIGN UP</a></li>
         <li><a class="link" href="index.html">HOME</a></li>
     </ul>
-    <!-- navigation bar -->
-    <!--<ul>
-      <li><a class="link" href="Login.html">LOGIN/SIGN UP</a></li>-->
-    <!--will link to menu
-    <li><a class="link" href="index.html">HOME</a></li>
-    </ul>
-    -->
 
     <div class="content-container">
         <p id="titleText">Welcome</p>
 
-        <div class="light-container-index">
+        <div class="light-container">
             <p id="headerText">Make A Post</p>
             <table>
                 <tr>
                     <td><img id="profile" src="../Answer-d/Images/defaultPic.png"></td>
-                    <td><input style="margin-left: 20px; margin-top: 10px; align-content: center; height: 60px" type="text" id="tbuser0" placeholder="Type Something..."></td><!--will add on click action later--> 
-                    <td><br><br></td>
+                    <td><input style="margin-left: 20px; margin-top: 10px; align-content: center; height: 60px"
+                            id="textField" type="text" size="50" placeholder="TYPE SOMETHING ..." required><br><br></td>
                 </tr>
             </table>
-
-            <section>
-                
-                <!--<input style="margin-left: 20px; margin-top: 10px; align-content: center; height: 60px" oninput="this.size = this.value.length" type="text" id="tbuser" placeholder="Type Something...">--> 
-                <br>
-            </section>
-            <br><br><br>
-
 
             <label for="classes" id="headerText" style="font-size: 15px">Class:</label>
             <!--professor should be attached to class-->
@@ -56,8 +45,7 @@
             </select>
             <br>
 
-            <input type="button" id="btn0" value="POST"> <!--will add on click action later-->
-            
+            <input id="submitButton" type="submit" value="POST" onclick=""> <!--will add on click action later-->
         </div>
 
         <label for="filter" id="headerText" style="font-size: 15px; margin-left: 40px;">Filter:</label>
@@ -67,55 +55,41 @@
             <option>Student Name (Alphabetical)</option>
         </select>
 
-        <div class="dark-container-index">
-            <span id="headerText">Class:</span> <span id="orangeText">362 Software Engineering</span> <!-- will make responsive later -->
-            <br><br><br>
-            <span id="headerText">Professor:</span> <span id="orangeText">Joseph, Merrin</span> <!-- will make responsive later -->
-            <br><br><br>
+        <div class="dark-container">
+            <span id="headerText">Class:</span> <span id="orangeText">362 Software Engineering</span>
+            <!-- will make responsive later -->
+            <br>
+            <span id="headerText">Professor:</span> <span id="orangeText">Joseph, Merrin</span>
+            <!-- will make responsive later -->
             <table>
                 <tr>
-                    <td><img id="profile" src="../Answer-d/Images/defaultPic.png" style="height: 70px; width: 70px"></td>
+                    <td><img id="profile" src="../Answer-d/Images/defaultPic.png" style="height: 70px; width: 70px">
+                    </td>
                     <td>
-                        <span id="headerText" style="margin-left: 20px; margin-top: 10px; font-size: 20px">Name:</span> <span id="orangeText">John Doe</span>
-                        <br>
-                        <p style="margin-left: 20px; padding-top: 20px; padding-left: 10px; height: 30px; width: auto; font-size: 20px" id="userQuestion">What is Scrum?</p> <!--will make responsive later-->
-                        <br>
-                        <p style="margin-left: 20px; margin-top: -10px;" id="smallBlueText">Date Posted: 3/8/2023</p>
+                        <span id="headerText" style="margin-left: 20px; font-size: 20px">Name:</span> <span
+                            id="orangeText">John Doe</span>
+                        <p style="margin-left: 20px; padding-left: 10px; height: 30px; width: auto; font-size: 20px"
+                            id="userQuestion">What is Scrum?</p> <!--will make responsive later-->
+                        <p style="margin-left: 20px;" id="smallBlueText">Date Posted: 3/8/2023</p>
                     </td>
                 </tr>
             </table>
+
+            <input style="margin-left: 20px; margin-top: 10px; align-content: center" id="textField" type="text"
+                size="50" placeholder="TYPE SOMETHING ..." required>
             <br>
-            
-            <section>
-                <p class="output" id="output1"></p>
-                
-                <input style="margin-left: 20px; margin-top: 10px; align-content: center; height: 60px" type="text" id="tbuser" placeholder="Type Something..."> <!--will add on click action later--> 
-                <br>
-                <input type="button" id="btn1" value="REPLY">
-            </section>
-            <script>
-                const txt1 = document.getElementById('tbuser');
-                const btn1 = document.getElementById('btn1');
-                const out1 = document.getElementById('output1');
-        
-                function fun1() {
-                    out1.innerHTML = txt1.value;
-                    out1.style.lineHeight = 2;
-                    out1.style.color="#004AAD";
-                    out1.style.backgroundColor="#92C0FF";
-                    out1.style.borderRadius="25px";
-                    out1.style.margin="20px;"
-                }
-        
-                btn1.addEventListener('click',fun1);
-        
-        
-            </script>
+            <table>
+                <tr>
+                    <td><input id="submitButton" type="submit" value="REPLY" onclick=""></td>
+                    <td><a href="reportPost.html"><img id="flag" src="../Answer-d/Images/reportFlag.PNG"></a></td>
+                    <!--will add on click action later-->
+                </tr>
+            </table>
         </div>
 
     </div>
 
- <!--FAQ Portion-->
+    <!--FAQ Portion-->
     <!-- navigation bar -->
     <!--will link to menu
     <li><a class="link" href="index.html">HOME</a></li>
@@ -147,4 +121,5 @@
         </div>
     </div>
 </body>
+
 </html>
