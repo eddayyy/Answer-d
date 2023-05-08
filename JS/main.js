@@ -84,5 +84,20 @@ function deleteUserData() {
     localStorage.removeItem('password');
 }
 
+const txt1 = document.getElementById('tbuser');
+const btn1 = document.getElementById('btn1');
+const out1 = document.getElementById('output1');
+
+function fun1() {
+    out1.innerHTML = txt1.value;
+    out1.style.lineHeight = 2;
+    out1.style.color = "#004AAD";
+    out1.style.backgroundColor = "#92C0FF";
+    out1.style.borderRadius = "25px";
+    out1.style.margin = "20px;"
+}
+
+btn1.addEventListener('click', fun1);
+
 
 
