@@ -34,12 +34,9 @@ Carina Adrianzen [carinadyann@csu.fullerton.edu] Francisco Ramirez [francisco966
    The application boasts a user-friendly and responsive design, ensuring seamless navigation and interaction across various devices and screen sizes.
 
 ### 7. **Intuitive UI**
-   The intuitive user interface ensures that the user can easily navigate through different sections and find the required information without hassle.
+   The intuitive user interface ensures that the user can easily navigate through different sections and find the required information without hassle.  
 
-### 8. **Security**
-   The platform adheres to high security standards, ensuring user data is protected and interactions within the platform are secure.
-
-## Technology Stack
+## Tech Stack
 
 - **HTML5:** For structuring the content of the web application.
 - **CSS3:** For styling and layout, ensuring a responsive and attractive interface.
